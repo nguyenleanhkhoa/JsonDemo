@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "450282948044",
+    "firebase_url": "https://thinking-orb-169510.firebaseio.com",
+    "project_id": "thinking-orb-169510",
+    "storage_bucket": "thinking-orb-169510.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450282948044:android:fee3541c4c267d46",
+        "android_client_info": {
+          "package_name": "com.example.admin.writedata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450282948044-a0ehgi0u45jkm32hrk8pqq04iguf8ehl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.writedata",
+            "certificate_hash": "27f52e4e0179064ebfc69c80fd167d3dd7460f17"
+          }
+        },
+        {
+          "client_id": "450282948044-croqgcogbajt5sss3ot1otrpn9hqm965.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-jOY3YxXHB2tz7_XTGWf8C00YmZsFGIs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450282948044-croqgcogbajt5sss3ot1otrpn9hqm965.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

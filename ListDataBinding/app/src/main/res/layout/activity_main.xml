@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="heading"
+            type="model.ListHeading"/>
+        <variable
+            name="infors"
+            type="model.ContactInforList"/>
+    </data>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:text="thêm"
+                android:layout_weight="5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:text="sửa"
+                android:layout_weight="5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:text="@{heading.listHeading}"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ListView
+            bind:items="@{infors.list}"
+            android:id="@+id/listContact"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+    </LinearLayout>
+
+
+
+</layout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+       <EditText
+           android:id="@+id/edtthongbao"
+           android:gravity="top|left"
+           android:hint="Viết thông báo mới........."
+           android:layout_width="300dp"
+           android:layout_height="100dp" />
+        <Button
+            android:id="@+id/btndangthogbao"
+            android:textColor="@android:color/white"
+            android:background="#363636"
+            android:text="ĐĂng thông báo "
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnthoat"
+            android:layout_marginTop="1dp"
+            android:textColor="@android:color/white"
+            android:background="#363636"
+            android:text="Thoát "
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

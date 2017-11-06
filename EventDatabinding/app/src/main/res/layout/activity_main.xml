@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="temp"
+            type="model.Temperature"/>
+        <variable
+            name="presenters"
+            type="com.example.admin.eventdatabinding.MainActivityPresenter"/>
+    </data>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="@={temp.celsius}"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:text="@={temp.celsius}"
+            android:hint="Enter the Ceisius"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:onClick="@{()->presenters.onShowData(temp)}"
+            android:text="nhập"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</layout>
+
+
+
+
